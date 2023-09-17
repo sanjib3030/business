@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* Navbar part Start */
+.navbar{
+    padding: 13px 0;
+    background-color: #3B689B;
+}
+.navbar-brand {
+    color: #fff !important;
+}
+nav ul li{
+    padding-left: 15px;
+    
+}
+nav ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff !important;
+}
+nav ul li a:hover{
+    color: #fec600 !important;
+}
+.navbar-nav .btn{
+    border: 2px solid #125dd6d7 !important;
+    border-radius: 20px;
+    color: #fff;
+    margin-left: 10px;
+    
+    
+    
+}
+
+/* Navbar part End */
+/* banner part End */
+
+#hero{
+    background-color:#125dd6d7 ;
+}
+#hero .banner-left{
+    padding: 150px 0;
+}
+#hero .image{
+    padding: 80px 0;
+}
+.banner-left .btw{
+    width: 130px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #125dd6d7;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 20px;
+   color: #000;
+}
+.banner-left .btw:hover{
+   background-color: #4AB5E0;
+}
+.banner-left .play-icon{
+   padding: 25px 0;
+
+}
+.banner-left .play-icon i{
+   font-size: 20px;
+   padding: 0 5px;
+
+}
+#hero .image img{
+    width: 350px;
+    height: 300px;
+
+}
+#hero .image .icon{
+   width: 35px;
+   height: 35px;
+   background-color: #fff;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 35px;
+   font-size: 23px;
+   color: #222;
+   cursor: pointer;
+}
+#hero .image .icon.left{
+  position: absolute;
+  top: 45%;
+  left: 40px;
+  transform: translateX(-50%);
+  z-index: 9;
+}
+#hero .image .icon.right{
+  position: absolute;
+  top: 45%;
+  right: 20px;
+  transform: translateX(-50%);
+  z-index: 9;
+}
+/* banner part End */
+/* carosal part End */
+#main-slider .image-slider{
+    width: 100%;
+    
+}
+#main-slider{
+    margin-top: 40px;
+    /* background-color: red; */
+}
+#main-slider .image-item{
+    margin: 0 6px;
+   }
+#main-slider .img{
+    position: relative;
+    transition: all linear .5s;  
+ }
+#main-slider .img::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 248, 255, .5);
+    top: 0;
+    left: 0;
+    content: "";
+    transition: all linear .5s;
+   
+ }
+ #main-slider .image-item.slick-center .img::after{
+    opacity: 0;
+}
+#main-slider .image-item.slick-center .img{
+    margin-top: -20px;
+   }
+   #main-slider .image-slider .slick-list{
+    padding-top: 52px !important;
+   }
+/* carosal part End */
